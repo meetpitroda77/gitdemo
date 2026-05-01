@@ -10,3 +10,12 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('login');
 });
+
+Route::get('/', function () {
+    return view('register');
+});
+
+
+
+
+
